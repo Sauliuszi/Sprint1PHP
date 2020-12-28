@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+table, tr, th, td {
+    border: solid 1px #000000;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+}
+table {
+    width: 100%;
+}
+thead {
+    background-color: rgb(17, 116, 119);
+    color: cornsilk;
+    font-size: x-large;
+}
