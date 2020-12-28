@@ -22,7 +22,7 @@
         </thead>
         <tbody>
             <?php
-            $files = scandir("../sprint1");
+            $files = scandir("../Sprint1PHP");
             foreach ($files as $file) {
                 print("<tr> <td></td>
         <td>$file</td> <td></td>
