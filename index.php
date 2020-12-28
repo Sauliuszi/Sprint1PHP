@@ -20,28 +20,18 @@
                 <th>Action</th>
             </tr>
         </thead>
+        <tbody>
+            <?php
+            $files = scandir("../sprint1");
+            foreach ($files as $file) {
+                print("<tr> <td></td>
+        <td>$file</td> <td></td>
+    </tr>");
+            }
+            ?>
+
+        </tbody>
     </table>
-
-    <?php
-
-    $files = scandir("../sprint1");
-    foreach ($files as $file) {
-        echo $file . "<br />";
-        
-        if(is_dir($file)) {
-            echo ("File  ");
-          } else {
-            echo ("Directory  ");
-          }
-    }
-  
-
-
-
-
-
-
-    ?>
 
 </body>
 
