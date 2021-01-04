@@ -28,11 +28,11 @@ declare(strict_types=1); ?>
 
     $path = isset($_GET['path']) ? $_GET['path'] : './';
     $files = scandir($path);
-    echo '<br>';
-    print_r(scandir('./'));
-    echo '<br>';
-    print_r(scandir('./bandymas'));
-    echo '<br>';
+    // echo '<br>';
+    // print_r(scandir('./'));
+    // echo '<br>';
+    // print_r(scandir('./bandymas'));
+    // echo '<br>';
 
     foreach ($files as $file) {
         // print("<tr><td>" . is_dir($file) . "</td>");
