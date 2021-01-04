@@ -23,6 +23,7 @@ declare(strict_types=1); ?>
                 <th>Action</th>
             </tr>
         </thead>
+
         <tbody>");
 
 
